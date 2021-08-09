@@ -1,0 +1,20 @@
+CREATE TABLE URUNKAYDI(
+	 urunadi	    CHAR(50) NOT NULL,
+	 urunbilgileri	CHAR(50) NOT NULL,
+	 kategoriler	CHAR(50) NOT NULL,
+	 fiyat	        INT      NOT NULL
+
+);
+
+CREATE TABLE KULLANICIKAYDI(
+    ad	                CHAR(50) NOT NULL,
+	soyad	            CHAR(50) NOT NULL,
+	cinsiyet	        CHAR(50) NOT NULL,
+	dogumtarihi	        CHAR(50) NOT NULL,
+	telefonnumarasi	    INT(11)  NOT NULL UNIQUE,
+	eposta	            CHAR(50) NOT NULL UNIQUE,
+	kullaniciadi	    CHAR(50) NOT NULL UNIQUE,
+	sifre	            CHAR(50) NOT NULL
+);
+
+
